@@ -170,6 +170,9 @@ graph TB
 - **Kafka (MSK):** comunicación asíncrona por eventos; cada dominio publica y/o consume desde el broker central
 - **vía DC:** conexión que cruza Direct Connect (2× 1 Gbps) entre on-premise Colombia y AWS
 
+
+<img width="4400" height="3512" alt="Arquitecturas Evolutivas - Page 2 (1)" src="https://github.com/user-attachments/assets/c0d30c22-c61f-4934-bcf7-16f9102166bd" />
+
 ---
 
 ## Descripción de componentes
