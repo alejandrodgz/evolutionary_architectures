@@ -1,4 +1,4 @@
-# Sección 2 — Identificación de RNF y Funciones de ajuste (Tabla 1)
+# Sección 2 — Identificación de RNF y Funciones de ajuste (Tabla 10)
 
 > **Estado:** 🔄 En construcción  
 > **Trazabilidad:** RNF identificados → Sección 1 (arquitectura) → Sección 3 (componentes) → Sección 4 (stack) → Sección 5 (evolución)
@@ -11,7 +11,7 @@ Los RNF se extraen **exclusivamente** del enunciado (`descripcion_del_proyecto.m
 
 ---
 
-## Tabla 1 — Requisitos no funcionales
+## Tabla 10 — Requisitos no funcionales
 
 | # | Requisito no funcional | Descripción del RNF | Funciones de ajuste |
 |---|------------------------|---------------------|---------------------|
@@ -68,13 +68,15 @@ Los RNF se extraen **exclusivamente** del enunciado (`descripcion_del_proyecto.m
 
 ## RNF por dominio — Detalle completo
 
-A continuación se listan todos los RNF específicos de cada dominio, con sus funciones de ajuste (fitness functions) y tácticas. Esta información complementa la Tabla 1 y se corresponde con el detalle documentado en cada archivo de dominio.
+A continuación se listan todos los RNF específicos de cada dominio, con sus funciones de ajuste (fitness functions) y tácticas. Esta información complementa la Tabla 10 y se corresponde con el detalle documentado en cada archivo de dominio.
 
 ---
 
 ### D1 — IAM Service
 
 #### RNF-D1-01 — Disponibilidad 24/7 del servicio IAM
+
+**Tabla 11. Requisito no funcional RNF-D1-01**
 
 | Campo | Detalle |
 |-------|---------|
@@ -100,6 +102,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D1-02 — Seguridad de autenticación y emisión de tokens
 
+**Tabla 12. Requisito no funcional RNF-D1-02**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | El dominio debe implementar autenticación robusta, MFA y emisión segura de JWT firmados. |
@@ -122,6 +126,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D1-03 — Protección contra fuerza bruta y abuso
+
+**Tabla 13. Requisito no funcional RNF-D1-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -146,6 +152,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D1-04 — Autorización granular (RBAC + scopes)
 
+**Tabla 14. Requisito no funcional RNF-D1-04**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | El acceso a operaciones críticas debe controlarse por rol y alcance (scope). |
@@ -167,6 +175,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D1-05 — Trazabilidad y cumplimiento de accesos
+
+**Tabla 15. Requisito no funcional RNF-D1-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -193,6 +203,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-01 — Sincronización diaria idempotente con bancos
 
+**Tabla 16. Requisito no funcional RNF-D2-01**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | La sincronización de cuentas con bancos debe ejecutarse diariamente de forma idempotente, con trazabilidad y sin duplicar registros. |
@@ -215,6 +227,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D2-02 — Rendimiento de consultas (< 2 s)
+
+**Tabla 17. Requisito no funcional RNF-D2-02**
 
 | Campo | Detalle |
 |-------|---------|
@@ -239,6 +253,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-03 — Escalabilidad (25M usuarios)
 
+**Tabla 18. Requisito no funcional RNF-D2-03**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | Debe soportar decenas de millones de usuarios y alto volumen concurrente. |
@@ -262,6 +278,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-04 — Seguridad y cumplimiento
 
+**Tabla 19. Requisito no funcional RNF-D2-04**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | Protección de datos sensibles y control de acceso estricto. |
@@ -284,6 +302,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D2-05 — Trazabilidad de sincronizaciones
+
+**Tabla 20. Requisito no funcional RNF-D2-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -310,6 +330,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D4-03 — Resiliencia en la integración con ACH
 
+**Tabla 21. Requisito no funcional RNF-D4-03**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | La indisponibilidad temporal del sistema ACH no debe interrumpir las transferencias entre bancos filiales ni bloquear indefinidamente las transferencias diferidas. Las transacciones enviadas a ACH deben poder ser reenviadas de forma segura sin duplicarlas. |
@@ -335,6 +357,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D4-04 — Gestión completa del ciclo de estados ACH
 
+**Tabla 22. Requisito no funcional RNF-D4-04**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | El sistema debe procesar correctamente todos los estados posibles que ACH puede comunicar (procedente, rechazada, en revisión, timeout) y transicionar la transacción al estado interno correcto, liberando o revirtiendo fondos según corresponda. |
@@ -359,6 +383,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D4-06 — Disponibilidad y rendimiento del motor de transferencias
+
+**Tabla 23. Requisito no funcional RNF-D4-06**
 
 | Campo | Detalle |
 |-------|---------|
@@ -387,6 +413,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D5-03 — Rendimiento de consulta de saldo
 
+**Tabla 24. Requisito no funcional RNF-D5-03**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | La consulta de saldo de la billetera debe responder en menos de 2 segundos, incluso con alto volumen de registros en el ledger. |
@@ -408,6 +436,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D5-04 — Seguridad y control de acceso
+
+**Tabla 25. Requisito no funcional RNF-D5-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -431,6 +461,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D5-05 — Trazabilidad de movimientos de billetera
+
+**Tabla 26. Requisito no funcional RNF-D5-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -457,6 +489,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D6-03 — Seguridad en comunicación con sistemas externos
 
+**Tabla 27. Requisito no funcional RNF-D6-03**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | Toda comunicación con sistemas externos debe usar canales cifrados (TLS 1.3 mínimo), con autenticación mutua cuando el tercero lo soporte, y las credenciales deben rotarse automáticamente. |
@@ -481,6 +515,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D6-04 — Trazabilidad de integraciones
+
+**Tabla 28. Requisito no funcional RNF-D6-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -507,6 +543,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-01 — Escalabilidad bajo picos de nómina
 
+**Tabla 29. Requisito no funcional RNF-D7-01**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | El dominio debe soportar 20K–30K pagos en ventanas críticas sin degradar el SLA global. |
@@ -532,6 +570,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-02 — Independencia y fiabilidad de pagos individuales
 
+**Tabla 30. Requisito no funcional RNF-D7-02**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | El fallo de un pago no puede afectar el resto del lote. |
@@ -556,6 +596,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-03 — Trazabilidad por lote y por empleado
 
+**Tabla 31. Requisito no funcional RNF-D7-03**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | Cada pago debe ser trazable individualmente y como parte de su lote padre. |
@@ -578,6 +620,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-04 — Automatización de nómina programada
 
+**Tabla 32. Requisito no funcional RNF-D7-04**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | Los pagos programados deben ejecutarse automáticamente y solo una vez por fecha configurada. |
@@ -599,6 +643,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D7-05 — Aislamiento de fallos por empresa
+
+**Tabla 33. Requisito no funcional RNF-D7-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -623,6 +669,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ### D8 — Reportes, Auditoría y Cumplimiento
 
 #### RNF-D8-01 — Inmutabilidad y integridad del registro de auditoría
+
+**Tabla 34. Requisito no funcional RNF-D8-01**
 
 | Campo | Detalle |
 |-------|---------|
@@ -650,6 +698,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D8-02 — Detección de patrones sospechosos y retroalimentación de listas
 
+**Tabla 35. Requisito no funcional RNF-D8-02**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | D8 analiza streams de eventos para detectar patrones sospechosos (transferencias frecuentes al mismo destino, montos atípicos, actividad desde cuentas en lista gris) mediante procesamiento post-hoc y correlación histórica. Al detectar un patrón, actualiza las listas blancas/grises/negras que D4 consume para validación en línea. La validación en tiempo real antes de ejecutar cada transferencia es responsabilidad de D4 (Primario). |
@@ -674,6 +724,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D8-03 — Generación y envío de reportes regulatorios en plazo
+
+**Tabla 36. Requisito no funcional RNF-D8-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -703,6 +755,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D8-04 — Observabilidad del sistema completo
 
+**Tabla 37. Requisito no funcional RNF-D8-04**
+
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | D8 debe proveer dashboards operacionales que permitan buscar transacciones por correlation_id, consultar alertas de fraude activas, ver estado de lotes de nómina y métricas de cumplimiento en tiempo real. |
@@ -727,6 +781,8 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 ---
 
 #### RNF-D8-05 — Retención y cifrado de datos de auditoría
+
+**Tabla 38. Requisito no funcional RNF-D8-05**
 
 | Campo | Detalle |
 |-------|---------|
