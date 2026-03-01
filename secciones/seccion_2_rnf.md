@@ -84,7 +84,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-01 (Primario) |
 | **Categoría RNF** | Disponibilidad |
 
-**Funciones de ajuste:**
+**Tabla 12. Funciones de ajuste RNF-D1-01**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -102,7 +102,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D1-02 — Seguridad de autenticación y emisión de tokens
 
-**Tabla 12. Requisito no funcional RNF-D1-02**
+**Tabla 13. Requisito no funcional RNF-D1-02**
 
 | Campo | Detalle |
 |-------|---------|
@@ -110,7 +110,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-04 (Primario) |
 | **Categoría RNF** | Seguridad |
 
-**Funciones de ajuste:**
+**Tabla 14. Funciones de ajuste RNF-D1-02**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -127,7 +127,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D1-03 — Protección contra fuerza bruta y abuso
 
-**Tabla 13. Requisito no funcional RNF-D1-03**
+**Tabla 15. Requisito no funcional RNF-D1-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -135,7 +135,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-04 (Primario) |
 | **Categoría RNF** | Seguridad / Resiliencia |
 
-**Funciones de ajuste:**
+**Tabla 16. Funciones de ajuste RNF-D1-03**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -152,7 +152,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D1-04 — Autorización granular (RBAC + scopes)
 
-**Tabla 14. Requisito no funcional RNF-D1-04**
+**Tabla 17. Requisito no funcional RNF-D1-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -160,7 +160,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-04 (Primario) |
 | **Categoría RNF** | Seguridad / Control de acceso |
 
-**Funciones de ajuste:**
+**Tabla 18. Funciones de ajuste RNF-D1-04**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -176,7 +176,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D1-05 — Trazabilidad y cumplimiento de accesos
 
-**Tabla 15. Requisito no funcional RNF-D1-05**
+**Tabla 19. Requisito no funcional RNF-D1-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -184,7 +184,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-06 (Primario) |
 | **Categoría RNF** | Trazabilidad / Cumplimiento |
 
-**Funciones de ajuste:**
+**Tabla 20. Funciones de ajuste RNF-D1-05**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -203,7 +203,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-01 — Sincronización diaria idempotente con bancos
 
-**Tabla 16. Requisito no funcional RNF-D2-01**
+**Tabla 21. Requisito no funcional RNF-D2-01**
 
 | Campo | Detalle |
 |-------|---------|
@@ -211,7 +211,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-07 |
 | **Categoría RNF** | Fiabilidad / Consistencia |
 
-**Funciones de ajuste:**
+**Tabla 22. Funciones de ajuste RNF-D2-01**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -228,7 +228,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-02 — Rendimiento de consultas (< 2 s)
 
-**Tabla 17. Requisito no funcional RNF-D2-02**
+**Tabla 23. Requisito no funcional RNF-D2-02**
 
 | Campo | Detalle |
 |-------|---------|
@@ -236,7 +236,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-02 |
 | **Categoría RNF** | Rendimiento |
 
-**Funciones de ajuste:**
+**Tabla 24. Funciones de ajuste RNF-D2-02**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -253,7 +253,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-03 — Escalabilidad (25M usuarios)
 
-**Tabla 18. Requisito no funcional RNF-D2-03**
+**Tabla 25. Requisito no funcional RNF-D2-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -261,7 +261,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-03 |
 | **Categoría RNF** | Escalabilidad |
 
-**Funciones de ajuste:**
+**Tabla 26. Funciones de ajuste RNF-D2-03**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -278,7 +278,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-04 — Seguridad y cumplimiento
 
-**Tabla 19. Requisito no funcional RNF-D2-04**
+**Tabla 27. Requisito no funcional RNF-D2-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -286,7 +286,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-04 |
 | **Categoría RNF** | Seguridad |
 
-**Funciones de ajuste:**
+**Tabla 28. Funciones de ajuste RNF-D2-04**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -303,7 +303,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D2-05 — Trazabilidad de sincronizaciones
 
-**Tabla 20. Requisito no funcional RNF-D2-05**
+**Tabla 29. Requisito no funcional RNF-D2-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -311,7 +311,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-06 |
 | **Categoría RNF** | Trazabilidad |
 
-**Funciones de ajuste:**
+**Tabla 30. Funciones de ajuste RNF-D2-05**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -330,7 +330,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D4-03 — Resiliencia en la integración con ACH
 
-**Tabla 21. Requisito no funcional RNF-D4-03**
+**Tabla 31. Requisito no funcional RNF-D4-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -338,7 +338,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideración 9 (Secundario en D4 / Primario técnico en D6) |
 | **Categoría RNF** | Resiliencia / Disponibilidad |
 
-**Funciones de ajuste:**
+**Tabla 32. Funciones de ajuste RNF-D4-03**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -357,7 +357,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D4-04 — Gestión completa del ciclo de estados ACH
 
-**Tabla 22. Requisito no funcional RNF-D4-04**
+**Tabla 33. Requisito no funcional RNF-D4-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -365,7 +365,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideración 10 (Primario) |
 | **Categoría RNF** | Correctitud / Fiabilidad |
 
-**Funciones de ajuste:**
+**Tabla 34. Funciones de ajuste RNF-D4-04**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -384,7 +384,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D4-06 — Disponibilidad y rendimiento del motor de transferencias
 
-**Tabla 23. Requisito no funcional RNF-D4-06**
+**Tabla 35. Requisito no funcional RNF-D4-06**
 
 | Campo | Detalle |
 |-------|---------|
@@ -392,7 +392,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-01 y RNF-02 globales |
 | **Categoría RNF** | Disponibilidad / Rendimiento |
 
-**Funciones de ajuste:**
+**Tabla 36. Funciones de ajuste RNF-D4-06**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -413,7 +413,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D5-03 — Rendimiento de consulta de saldo
 
-**Tabla 24. Requisito no funcional RNF-D5-03**
+**Tabla 37. Requisito no funcional RNF-D5-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -421,7 +421,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-02 (Primario) |
 | **Categoría RNF** | Rendimiento |
 
-**Funciones de ajuste:**
+**Tabla 38. Funciones de ajuste RNF-D5-03**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -437,7 +437,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D5-04 — Seguridad y control de acceso
 
-**Tabla 25. Requisito no funcional RNF-D5-04**
+**Tabla 39. Requisito no funcional RNF-D5-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -445,7 +445,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-04 (Primario) |
 | **Categoría RNF** | Seguridad |
 
-**Funciones de ajuste:**
+**Tabla 40. Funciones de ajuste RNF-D5-04**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -462,7 +462,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D5-05 — Trazabilidad de movimientos de billetera
 
-**Tabla 26. Requisito no funcional RNF-D5-05**
+**Tabla 41. Requisito no funcional RNF-D5-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -470,7 +470,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-06 (Primario) |
 | **Categoría RNF** | Trazabilidad / Cumplimiento |
 
-**Funciones de ajuste:**
+**Tabla 42. Funciones de ajuste RNF-D5-05**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -489,7 +489,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D6-03 — Seguridad en comunicación con sistemas externos
 
-**Tabla 27. Requisito no funcional RNF-D6-03**
+**Tabla 43. Requisito no funcional RNF-D6-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -497,7 +497,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideración 26 (Secundario) / RNF-04 (Seguridad) |
 | **Categoría RNF** | Seguridad |
 
-**Funciones de ajuste:**
+**Tabla 44. Funciones de ajuste RNF-D6-03**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -516,7 +516,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D6-04 — Trazabilidad de integraciones
 
-**Tabla 28. Requisito no funcional RNF-D6-04**
+**Tabla 45. Requisito no funcional RNF-D6-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -524,7 +524,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-06 (Trazabilidad) / RNF-09 (Observabilidad) |
 | **Categoría RNF** | Trazabilidad / Observabilidad |
 
-**Funciones de ajuste:**
+**Tabla 46. Funciones de ajuste RNF-D6-04**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -543,7 +543,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-01 — Escalabilidad bajo picos de nómina
 
-**Tabla 29. Requisito no funcional RNF-D7-01**
+**Tabla 47. Requisito no funcional RNF-D7-01**
 
 | Campo | Detalle |
 |-------|---------|
@@ -551,7 +551,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideraciones 21, 22, 23, 24 |
 | **Categoría RNF** | Escalabilidad |
 
-**Funciones de ajuste:**
+**Tabla 48. Funciones de ajuste RNF-D7-01**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -570,14 +570,14 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-02 — Independencia y fiabilidad de pagos individuales
 
-**Tabla 30. Requisito no funcional RNF-D7-02**
+**Tabla 49. Requisito no funcional RNF-D7-02**
 
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | El fallo de un pago no puede afectar el resto del lote. |
 | **Categoría RNF** | Fiabilidad |
 
-**Funciones de ajuste:**
+**Tabla 50. Funciones de ajuste RNF-D7-02**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -596,14 +596,14 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-03 — Trazabilidad por lote y por empleado
 
-**Tabla 31. Requisito no funcional RNF-D7-03**
+**Tabla 51. Requisito no funcional RNF-D7-03**
 
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | Cada pago debe ser trazable individualmente y como parte de su lote padre. |
 | **Categoría RNF** | Trazabilidad |
 
-**Funciones de ajuste:**
+**Tabla 52. Funciones de ajuste RNF-D7-03**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -620,14 +620,14 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-04 — Automatización de nómina programada
 
-**Tabla 32. Requisito no funcional RNF-D7-04**
+**Tabla 53. Requisito no funcional RNF-D7-04**
 
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | Los pagos programados deben ejecutarse automáticamente y solo una vez por fecha configurada. |
 | **Categoría RNF** | Automatización |
 
-**Funciones de ajuste:**
+**Tabla 54. Funciones de ajuste RNF-D7-04**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -644,14 +644,14 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D7-05 — Aislamiento de fallos por empresa
 
-**Tabla 33. Requisito no funcional RNF-D7-05**
+**Tabla 55. Requisito no funcional RNF-D7-05**
 
 | Campo | Detalle |
 |-------|---------|
 | **Descripción** | El fallo en la nómina de una empresa no debe impactar las demás. |
 | **Categoría RNF** | Resiliencia |
 
-**Funciones de ajuste:**
+**Tabla 56. Funciones de ajuste RNF-D7-05**
 
 | # | Función de ajuste | Métrica objetivo |
 |---|-------------------|-----------------|
@@ -670,7 +670,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D8-01 — Inmutabilidad y integridad del registro de auditoría
 
-**Tabla 34. Requisito no funcional RNF-D8-01**
+**Tabla 57. Requisito no funcional RNF-D8-01**
 
 | Campo | Detalle |
 |-------|---------|
@@ -678,7 +678,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideración 11, 30 (Primario) / RNF-06 (Trazabilidad) |
 | **Categoría RNF** | Integridad / Trazabilidad |
 
-**Funciones de ajuste:**
+**Tabla 58. Funciones de ajuste RNF-D8-01**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -698,7 +698,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D8-02 — Detección de patrones sospechosos y retroalimentación de listas
 
-**Tabla 35. Requisito no funcional RNF-D8-02**
+**Tabla 59. Requisito no funcional RNF-D8-02**
 
 | Campo | Detalle |
 |-------|---------|
@@ -706,7 +706,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideración 30 (Primario) / RNF-04 (Seguridad) |
 | **Categoría RNF** | Seguridad / Detección de fraude |
 
-**Funciones de ajuste:**
+**Tabla 60. Funciones de ajuste RNF-D8-02**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -725,7 +725,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D8-03 — Generación y envío de reportes regulatorios en plazo
 
-**Tabla 36. Requisito no funcional RNF-D8-03**
+**Tabla 61. Requisito no funcional RNF-D8-03**
 
 | Campo | Detalle |
 |-------|---------|
@@ -733,7 +733,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideraciones 33, 34, 35 (Primario) / RNF-06 (Cumplimiento) |
 | **Categoría RNF** | Cumplimiento regulatorio |
 
-**Funciones de ajuste:**
+**Tabla 62. Funciones de ajuste RNF-D8-03**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -755,7 +755,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D8-04 — Observabilidad del sistema completo
 
-**Tabla 37. Requisito no funcional RNF-D8-04**
+**Tabla 63. Requisito no funcional RNF-D8-04**
 
 | Campo | Detalle |
 |-------|---------|
@@ -763,7 +763,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | RNF-09 (Observabilidad) / Consideración 30 |
 | **Categoría RNF** | Observabilidad |
 
-**Funciones de ajuste:**
+**Tabla 64. Funciones de ajuste RNF-D8-04**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
@@ -782,7 +782,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 
 #### RNF-D8-05 — Retención y cifrado de datos de auditoría
 
-**Tabla 38. Requisito no funcional RNF-D8-05**
+**Tabla 65. Requisito no funcional RNF-D8-05**
 
 | Campo | Detalle |
 |-------|---------|
@@ -790,7 +790,7 @@ A continuación se listan todos los RNF específicos de cada dominio, con sus fu
 | **Origen** | Consideración 25 (Secundario) / RNF-04 (Seguridad) / RNF-06 (Cumplimiento) |
 | **Categoría RNF** | Cumplimiento / Seguridad |
 
-**Funciones de ajuste:**
+**Tabla 66. Funciones de ajuste RNF-D8-05**
 
 | # | Función de ajuste | Mecanismo | Métrica objetivo |
 |---|-------------------|-----------|-----------------|
